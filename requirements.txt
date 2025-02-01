@@ -34,7 +34,6 @@ numpy==1.26.4
 openpyxl==3.1.2
 packaging==24.0
 pandas==2.2.2
--e git+https://github.com/apoorvasaxena03/Parent_Child_Spacing.git@67b05dd9c1e570ac63b5bd0d9a8648fe9a5594ea#egg=parent_child_spacing
 parso==0.8.4
 pillow==10.3.0
 platformdirs==4.2.2

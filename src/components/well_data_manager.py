@@ -5,9 +5,7 @@ pd.set_option('display.max_columns', None) # Set the maximum number of columns t
 
 import numpy as np # Importing numpy package for numerical operations
 
-from typing import Dict, Tuple, List, Union, Optional # Importing specific types from typing module
-
-from src.database_manager import DatabricksOdbcConnector # Importing DatabricksOdbcConnector class from database_manager module
+from typing import Dict, Union, Optional # Importing specific types from typing module
 
 import time # Importing Time Module
 
@@ -19,7 +17,6 @@ import os # Importing os module for operating system dependent functionality
 
 # Importing necessary modules for plotting and data manipulation
 import matplotlib.pyplot as plt # Importing matplotlib.pyplot for plotting
-from mpl_toolkits.mplot3d import Axes3D # Importing 3D plotting toolkit from matplotlib
 
 # Setting matplotlib to inline mode for Jupyter notebooks
 #%matplotlib inline

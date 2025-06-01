@@ -117,6 +117,7 @@ class WellDataLoader:
             customString2 AS rsv_cat,
             customString0 AS bench,
             DATE(firstProdDate) AS first_prod_date,
+            DATE(completionStartDate) AS comp_date,
             holeDirection AS hole_direction,
             surfaceLatitude AS surface_lat,
             surfaceLongitude AS surface_lon
